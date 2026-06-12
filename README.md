@@ -8,10 +8,18 @@
 [![Stars](https://img.shields.io/github/stars/anshmajumdar121/QuickKill?style=social)](https://github.com/anshmajumdar121/QuickKill)
 
 <p align="center">
-  <img src="docs/screenshots/search.png" alt="Live search" width="280" style="margin:0 8px;">
-  <img src="docs/screenshots/settings.png" alt="Settings panel" width="280" style="margin:0 8px;">
-  <br>
-  <em align="center">Main panel &nbsp;·&nbsp; Live search &nbsp;·&nbsp; Settings</em>
+  <table align="center">
+    <tr>
+      <td align="center"><img src="docs/screenshots/hero.png" alt="Main panel" width="280"></td>
+      <td align="center"><img src="docs/screenshots/search.png" alt="Live search" width="280"></td>
+      <td align="center"><img src="docs/screenshots/settings.png" alt="Settings" width="280"></td>
+    </tr>
+    <tr>
+      <td align="center"><em>Main panel</em></td>
+      <td align="center"><em>Live search</em></td>
+      <td align="center"><em>Settings</em></td>
+    </tr>
+  </table>
 </p>
 
 ## So what's this?
