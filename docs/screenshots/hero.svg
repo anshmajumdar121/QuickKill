@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C1C1E"/>
+      <stop offset="100%" style="stop-color:#2C2C2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F54E00"/>
+      <stop offset="100%" style="stop-color:#FF6A2B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <!-- Glass panel mockup -->
+  <rect x="340" y="60" width="600" height="520" rx="18" fill="#CC1C1C1E" stroke="#55FFFFFF" stroke-width="1"/>
+  <!-- Header -->
+  <text x="380" y="110" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600" fill="#F5F5F7">Kill Application</text>
+  <!-- Search bar -->
+  <rect x="360" y="130" width="560" height="36" rx="12" fill="#24FFFFFF" stroke="#38FFFFFF" stroke-width="0.5"/>
+  <text x="380" y="154" font-family="Segoe UI, sans-serif" font-size="13" fill="#8E8E93">🔍 Search apps...</text>
+  <!-- Process items -->
+  <rect x="360" y="180" width="560" height="58" rx="11" fill="#14FFFFFF"/>
+  <rect x="370" y="190" width="38" height="38" rx="10" fill="#1EFFFFFF" stroke="#30FFFFFF" stroke-width="0.5"/>
+  <rect x="378" y="198" width="22" height="22" rx="4" fill="#F54E00"/>
+  <text x="420" y="210" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F5F5F7">Google Chrome</text>
+  <text x="420" y="226" font-family="Cascadia Code, monospace" font-size="10" fill="#98989F">chrome  ·  PID 14256</text>
+
+  <rect x="360" y="243" width="560" height="58" rx="11" fill="#2BFFFFFF" stroke="#45FFFFFF" stroke-width="1"/>
+  <rect x="370" y="253" width="38" height="38" rx="10" fill="#1EFFFFFF" stroke="#30FFFFFF" stroke-width="0.5"/>
+  <rect x="378" y="261" width="22" height="22" rx="4" fill="#0078D4"/>
+  <text x="420" y="273" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F5F5F7">Code - OSS (Visual Studio Code)</text>
+  <text x="420" y="289" font-family="Cascadia Code, monospace" font-size="10" fill="#98989F">code-oss  ·  PID 9812</text>
+
+  <rect x="360" y="306" width="560" height="58" rx="11" fill="#14FFFFFF"/>
+  <rect x="370" y="316" width="38" height="38" rx="10" fill="#1EFFFFFF" stroke="#30FFFFFF" stroke-width="0.5"/>
+  <rect x="378" y="324" width="22" height="22" rx="4" fill="#00A4EF"/>
+  <text x="420" y="336" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F5F5F7">Microsoft Edge</text>
+  <text x="420" y="352" font-family="Cascadia Code, monospace" font-size="10" fill="#98989F">msedge  ·  PID 23104</text>
+
+  <rect x="360" y="369" width="560" height="58" rx="11" fill="#14FFFFFF"/>
+  <rect x="370" y="379" width="38" height="38" rx="10" fill="#1EFFFFFF" stroke="#30FFFFFF" stroke-width="0.5"/>
+  <rect x="378" y="387" width="22" height="22" rx="4" fill="#FF8800"/>
+  <text x="420" y="399" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F5F5F7">Spotify</text>
+  <text x="420" y="415" font-family="Cascadia Code, monospace" font-size="10" fill="#98989F">spotify  ·  PID 8412</text>
+
+  <!-- Kill button -->
+  <rect x="360" y="440" width="560" height="42" rx="12" fill="#F54E00"/>
+  <text x="610" y="467" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Force Kill</text>
+  <rect x="688" y="454" width="44" height="16" rx="5" fill="#CC3D0000"/>
+  <text x="692" y="465" font-family="Segoe UI, sans-serif" font-size="10" fill="#FFCCC0">↵ Enter</text>
+
+  <!-- Title overlay -->
+  <text x="640" y="610" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7" text-anchor="middle">QuickKill — Windows Process Killer</text>
+  <text x="640" y="632" font-family="Segoe UI, sans-serif" font-size="12" fill="#98989F" text-anchor="middle">Ctrl+Alt+Q · Open source · Dark glass UI</text>
+</svg>

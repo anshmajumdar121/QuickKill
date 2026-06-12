@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Framework-dependent: small exe, no temp-folder self-extraction on launch.
+         Requires .NET 8 Desktop Runtime (already installed on this machine). -->
+    <SelfContained>false</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <AssemblyName>QuickKill</AssemblyName>
+    <RootNamespace>QuickKill</RootNamespace>
+    <Description>QuickKill — A lightweight Windows process killer with global hotkey (Ctrl+Alt+Q), dark glass UI, and live search. Open-source alternative to Task Manager.</Description>
+    <PackageTags>windows;process-killer;task-manager-alternative;wpf;dotnet;hotkey;utility</PackageTags>
+    <RepositoryUrl>https://github.com/Amar156/QuickKill</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Amar156/QuickKill</PackageProjectUrl>
+    <Copyright>Copyright (c) 2026 Amar</Copyright>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+</Project>
