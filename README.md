@@ -11,16 +11,16 @@
   <img src="docs/screenshots/search.png" alt="Live search" width="280" style="margin:0 8px;">
   <img src="docs/screenshots/settings.png" alt="Settings panel" width="280" style="margin:0 8px;">
   <br>
-  <em>Main panel · Live search · Settings</em>
+  <em align="center">Main panel &nbsp;·&nbsp; Live search &nbsp;·&nbsp; Settings</em>
 </p>
 
-## What is QuickKill?
+## So what's this?
 
-QuickKill is a **lightweight Windows process killer** that lives in your system tray and opens a dark liquid-glass overlay panel (inspired by iPadOS Control Center) at the press of **Ctrl+Alt+Q**. It shows every running desktop application with its icon and PID, plus a live search box — find and kill any frozen app in under 2 seconds.
+QuickKill lives in your system tray. Press **Ctrl+Alt+Q** and a dark glass panel slides in — inspired by iPadOS Control Center. It lists every desktop app with its icon and PID. Type to search. Hit Enter to kill. Takes about 2 seconds.
 
-Unlike Task Manager (3–5 clicks, several seconds of lag), QuickKill is built for speed: the process list is pre-cached in the background, so the panel opens **instantly** with zero loading time. It also guards critical system processes (csrss, wininit, lsass, etc.) so you can never accidentally blue-screen your machine.
+The process list is pre-cached in the background, so the panel opens instantly — no spinner, no lag. And it won't let you kill critical system stuff (csrss, wininit, lsass, etc.), so no accidental blue screens.
 
-## Why QuickKill over Task Manager?
+## Why not just use Task Manager?
 
 | Feature | QuickKill | Windows Task Manager |
 |---|---|---|
@@ -38,7 +38,7 @@ Unlike Task Manager (3–5 clicks, several seconds of lag), QuickKill is built f
 
 ---
 
-## 🚀 Quick Start (Easiest Way)
+## Getting started
 
 ### Option 1 — Download & run (recommended for most users)
 
@@ -69,7 +69,7 @@ Get-Process QuickKill -ErrorAction SilentlyContinue | Stop-Process -Force; Start
 
 ---
 
-## Usage
+## Using it
 
 | Action | How |
 |---|---|
@@ -83,7 +83,7 @@ Get-Process QuickKill -ErrorAction SilentlyContinue | Stop-Process -Force; Start
 
 If Ctrl+Alt+Q is already taken by another app, QuickKill automatically falls back to **Ctrl+Shift+Q** (the tray tooltip always shows the active hotkey).
 
-## ⚙ Settings Panel
+## ⚙ Settings
 
 Click the **gear icon (⚙)** in the panel header:
 
@@ -111,7 +111,7 @@ All settings persist to `%AppData%\QuickKill\settings.json`.
 - **Icon caching** — each exe's icon is extracted once and reused
 - **Smart refresh** — the open panel skips list repaints entirely when nothing changed (no blinking)
 
-## Build from Source
+## Building it yourself
 
 ```powershell
 git clone https://github.com/anshmajumdar121/QuickKill.git
