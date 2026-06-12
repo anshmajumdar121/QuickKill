@@ -8,14 +8,11 @@
 [![Stars](https://img.shields.io/github/stars/anshmajumdar121/QuickKill?style=social)](https://github.com/anshmajumdar121/QuickKill)
 
 <p align="center">
-  <img src="docs/screenshots/hero.png" alt="QuickKill dark liquid-glass UI showing process list with search" width="640">
-  <br><em>Main kill panel — search any running app, select with ↑/↓, kill with Enter</em>
-  <br><br>
-  <img src="docs/screenshots/search.png" alt="QuickKill live search filtering processes" width="640">
-  <br><em>Live search — type to filter instantly across all running apps</em>
-  <br><br>
-  <img src="docs/screenshots/settings.png" alt="QuickKill settings panel with size, opacity, and hotkey controls" width="640">
-  <br><em>Settings panel — resize, adjust opacity, remap hotkey, toggle auto-start</em>
+  <img src="docs/screenshots/hero.png" alt="Main kill panel" width="280">
+  <img src="docs/screenshots/search.png" alt="Live search" width="280">
+  <img src="docs/screenshots/settings.png" alt="Settings panel" width="280">
+  <br>
+  <em>Main panel · Live search · Settings</em>
 </p>
 
 ## What is QuickKill?
