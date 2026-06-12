@@ -8,7 +8,6 @@
 [![Stars](https://img.shields.io/github/stars/anshmajumdar121/QuickKill?style=social)](https://github.com/anshmajumdar121/QuickKill)
 
 <p align="center">
-  <img src="docs/screenshots/hero.png" alt="Main kill panel" width="280" style="margin:0 8px;">
   <img src="docs/screenshots/search.png" alt="Live search" width="280" style="margin:0 8px;">
   <img src="docs/screenshots/settings.png" alt="Settings panel" width="280" style="margin:0 8px;">
   <br>
